@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: replicaset-nginx
+# replica setting start
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-nginx-pods-label
+# label 이 my-nginx-pods-label 인 template 을 선택한다.
+# replica setting end
+
+# container setting start
+template:
+  metadata:
+    name: my-nginx-pod
+    labels:
+      app: my-nginx-pods-label
+  spec:
+    containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+          - containerPort: 80
+# container setting end

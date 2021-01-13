@@ -9,7 +9,7 @@ official 라벨이 없는 경우 제대로 동작하지 않을 수 있다.
 그렇다고 private 한 docker hub 를 만든다면 repository 당 가격이 부과되기 때문에 부담스럽다.
 
 - docker search ubuntu
-  - 검색 결과 ![img.png](../images/dockerSearchResult.png)
+  - 검색 결과 ![img.png](../../images/dockerSearchResult.png)
     이와 같이 official tag 가 없는 것들이 있다.
 
 ## 이미지 생성

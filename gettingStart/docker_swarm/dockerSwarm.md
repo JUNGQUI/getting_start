@@ -21,5 +21,7 @@
 > swarm classic 의 경우 직접 도터 서버를 분산 코디네이터화 시켜야 하는 반면, swarm mode 의 경우 spring boot 처럼
 > 자연스럽게 붙여서 클러스터링이 가능하다.
 
-`docker info | grep swarm` 을 통해 swarm 정보를 볼 수 있는데, 초기 설정이 없기에 `Swarm: inactive` 가 출력된다.
+`docker info | grep Swarm` 을 통해 swarm 정보를 볼 수 있는데, 초기 설정이 없기에 `Swarm: inactive` 가 출력된다.
 
+`docker swarm init --advertise-addr MANAGER_IP_ADDRESS` 입력 시 MANAGER_IP_ADDRESS 를 가진 container 가
+매니저 노드가 됨과 동시에 docker swarm 이 초기화 된다.

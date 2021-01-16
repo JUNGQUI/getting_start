@@ -84,3 +84,4 @@ template:
 항상 3가지의 pod 이 떠있게 된다.
 
 원리로는 matchLabels 가 지정한 label 을 가지는 replica set 이 설정값에 남긴 개수와 같을 때까지 늘리게 된다. 그렇기에 label 이 중요하고, template 내의 label 도, metadata 의 label 도 중요하다.
+

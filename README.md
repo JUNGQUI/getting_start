@@ -5,6 +5,9 @@
 
 udemy
 - [pod with yaml](./udemy/podWithYaml/README.md)
+- [ReplicaSet](./udemy/replica/README.md)
+- [Deployment](./udemy/deployment/README.md)
+- [Namespace, Resource Quota](./udemy/namespace/README.md)
 
 
 시작하세요! 도커/쿠버네티스

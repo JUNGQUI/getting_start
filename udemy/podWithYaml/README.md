@@ -20,4 +20,3 @@ spec:
 - kubectl edit pod NAME : NAME pod 을 수정. 이름, 이미지 등을 수정할 수 있음
 - kubectl get pod NAME -o yaml > pod-definition.yaml : 떠있는 pod NAME 의 설정을 yaml 로 만들고 
   pod-definition.yaml 파일로 로컬에 저장
-- 
